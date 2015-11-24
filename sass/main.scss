@@ -1,0 +1,16 @@
+// Put any @imports here
+// See Readme for a list of supported ones
+
+@import 'foundation';
+
+// This must be included to user Foundation 6
+@include foundation-everything;
+
+body {
+  background: #e2ebf3;
+}
+
+.container {
+  width: 600px;
+  margin: 15px auto;
+}
