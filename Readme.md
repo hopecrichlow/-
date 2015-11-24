@@ -11,7 +11,8 @@
 
 
 ## Assets Installed By Default
-
+- [Angular](https://github.com/angular/angular.js)
+- [Ui-Router](https://github.com/angular-ui/ui-routerangular)
 - [Normalize CSS](https://necolas.github.io/normalize.css/)
 
 ## Assets Setup and ready for use
@@ -19,7 +20,7 @@
 - [Bourbon](http://bourbon.io/)
 - [Neat](http://neat.bourbon.io/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
-- [Foundation 5](http://foundation.zurb.com/)
+- [Foundation 6](http://foundation.zurb.com/)
 
 #### How to use them?
 
@@ -30,6 +31,7 @@ At the top of your `main.scss` file, just import any of the following:
 @import "neat";
 
 @import "foundation";
+@include foundation-everything;
 
 @import "font-awesome";
 ```
