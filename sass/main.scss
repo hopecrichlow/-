@@ -1,10 +1,13 @@
 // Put any @imports here
 // See Readme for a list of supported ones
 
-@import 'foundation';
 
-// This must be included to user Foundation 6
-@include foundation-everything;
+// Foundation //
+// @import 'foundation';
+// @include foundation-everything;
+
+// Bootstrap //
+// @import 'bootstrap';
 
 body {
   background: #e2ebf3;
