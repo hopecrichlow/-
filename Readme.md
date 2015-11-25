@@ -21,6 +21,7 @@
 - [Neat](http://neat.bourbon.io/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 - [Foundation 6](http://foundation.zurb.com/)
+- [Motion-UI](http://foundation.zurb.com/apps/docs/#!/motion-ui)
 
 #### How to use them?
 
@@ -29,11 +30,14 @@ At the top of your `main.scss` file, just import any of the following:
 ```scss
 @import "bourbon";
 @import "neat";
+@import "font-awesome";
 
-@import "foundation";
+// Imported by Default
+@import 'foundation';
+@import 'motion-ui';
+@include motion-ui-transitions;
 @include foundation-everything;
 
-@import "font-awesome";
 ```
 
 > Note: You probably don't want to use BOTH Bourbon/Neat & Foundation. Just pick one.
