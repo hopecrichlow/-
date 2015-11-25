@@ -1,7 +1,7 @@
 {
-  "name": "browserify-example",
+  "name": "angular-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "WAT!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -40,7 +40,6 @@
   "dependencies": {
     "browserify-shim": "^3.8.11",
     "font-awesome": "^4.4.0",
-    "foundation-apps": "^1.1.0",
     "foundation-sites": "^6.0.3",
     "jquery": "^2.1.4",
     "moment": "^2.10.6",
