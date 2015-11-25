@@ -38,7 +38,7 @@ gulp.task('sass', function () {
     .pipe( notifyError() )
     .pipe(sourcemaps.init({ loadMaps: true }))
     .pipe(sass({
-      includePaths: require('node-neat').with([fontAwesome.scssPath, foundationSCSS])
+      includePaths: require('node-neat').with([fontAwesome.scssPath, foundationSCSS, 'node_modules/motion-ui/src'])
     }))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./app/css'));
