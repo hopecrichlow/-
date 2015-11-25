@@ -21,6 +21,8 @@
 - [Neat](http://neat.bourbon.io/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 - [Foundation 6](http://foundation.zurb.com/)
+- [Bootstrap](http://getbootstrap.com/)
+
 
 #### How to use them?
 
@@ -32,6 +34,8 @@ At the top of your `main.scss` file, just import any of the following:
 
 @import "foundation";
 @include foundation-everything;
+
+@import "bootstrap";
 
 @import "font-awesome";
 ```
