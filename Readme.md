@@ -1,6 +1,6 @@
-## Welcome to My Project
+## Welcome 
 
-> I am your Readme.md file, you should probably update me.
+> I used a previous template stack, and added Foundation 6 and Motion-UI so they could interact with Angular and Angular-UI. Enjoy!
 
 
 ## Usage
