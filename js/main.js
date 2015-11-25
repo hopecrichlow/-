@@ -4,6 +4,7 @@ import angular from 'angular';
 // Import jQuery and Foundation and Motion-UI
 import $ from 'jquery';
 import 'foundation';
+import 'motion-ui';
 
 // Import run to watch state change
 import run from './run';

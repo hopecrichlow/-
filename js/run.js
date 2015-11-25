@@ -1,6 +1,6 @@
 let run = function($rootScope) {
 
-  $rootScope.$on('$stateChangeSuccess', function (event, data) {
+  $rootScope.$on('$viewContentLoaded', function (event, data) {
     $(document).foundation();
   });
 
