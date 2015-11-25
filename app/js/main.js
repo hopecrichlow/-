@@ -7,7 +7,7 @@ Object.defineProperty(exports, '__esModule', {
 var config = function config($stateProvider, $urlRouterProvider, $locationProvider) {
 
   // If no route matches, go to home route
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/');
 
   // Set up some States
   $stateProvider
@@ -18,7 +18,7 @@ var config = function config($stateProvider, $urlRouterProvider, $locationProvid
     abstract: true,
     templateUrl: 'templates/tpl-layout/layout.tpl.html'
   }).state('root.home', {
-    url: '/home',
+    url: '/',
     // controller: '... as vm',
     templateUrl: 'templates/tpl-app/home.tpl.html'
   });
