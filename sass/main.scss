@@ -9,12 +9,28 @@
 
 
 body {
-  background: #747D7D;
+  background: #2C2C2C;
+}
+
+.top-bar {
+  height: 20%;
+  margin-bottom: 10%;
 }
 
 .container {
-  width: 600px;
-  margin: 15px auto;
-  border: 1px solid white;
+  margin: auto;
   text-align: center;
+  width: 70%;
 }
+  .back {
+    color: #3B3B3B;
+    font-family: Oswald, sans-serif;
+    font-size: 3.5em;
+  }
+    hr {
+      border: 2px solid orangered;
+      float: left;
+      width: 60px;
+
+    }
+

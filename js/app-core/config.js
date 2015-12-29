@@ -14,8 +14,24 @@ let config = function($stateProvider, $urlRouterProvider, $locationProvider) {
   }) 
   .state('root.home', {
     url: '/',
-    // controller: '... as vm',
     templateUrl: 'templates/tpl-app/home.tpl.html'
+  })
+  .state('root.about', {
+    url: '/about',
+    templateUrl: 'templates/tpl-app/about.tpl.html'
+  })
+  .state('root.portfolio', {
+    url: '/portfolio',
+    controller: 'PortfolioController as vm',
+    templateUrl: 'templates/tpl-app/portfolio.tpl.html'
+  })
+  .state('root.contact', {
+    url: '/contact',
+    templateUrl: 'templates/tpl-app/contact.tpl.html'
+  })
+  .state('root.faq', {
+    url: '/faq',
+    templateUrl: 'templates/tpl-app/faq.tpl.html'
   });
   /////** Add new .states here **/////
 
